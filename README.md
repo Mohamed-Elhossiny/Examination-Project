@@ -1,4 +1,4 @@
-## This is Project made as an Implementation for Angular Concepts..
+## This Project was made as an Implementation for Angular Concepts...
 #Features:
 1-Registeration Form.
 2-Login Form.

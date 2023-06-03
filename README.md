@@ -6,5 +6,5 @@
 4-Exam Page.
 5-Score Page.
 
-I also used JSON Server as database to stor Registeration and Login users in it, Also after the student pass the exam, we send his ansers to database to check them
-with the correct answers in and show the result in the score page
+I also used JSON Server as database to store Registeration and Login users in it, Also after the student pass the exam, we send his answers to database to check them
+with the correct answers and show the result in the score page

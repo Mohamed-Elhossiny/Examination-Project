@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 })
 export class NavbarComponent implements OnInit {
   user!: any;
-  constructor(private service: RegisterService,private router:Router) {}
+  constructor(private service: RegisterService, private router: Router) {}
 
   ngOnInit(): void {
     this.service.user.subscribe((response) => {
@@ -23,6 +23,7 @@ export class NavbarComponent implements OnInit {
     this.service.login(model).subscribe((res) => {
       this.user = null;
       this.service.user.next(res);
+      this.router.navigate(['/']);
     });
   }
 }
